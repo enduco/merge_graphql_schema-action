@@ -1,6 +1,6 @@
-name: 'GraphQL Schema merge'
+name: 'GraphQL Schema merge (Enduco)'
 description: 'Merge GraphQL schema files into one string'
-author: 'Philipp Staudt'
+author: 'enduco GmbH'
 
 inputs:
   path:
@@ -11,5 +11,5 @@ outputs:
   fileContent:
     description: 'String of merged GraphQL files'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
